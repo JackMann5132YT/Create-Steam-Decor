@@ -1,0 +1,14 @@
+# Project info
+mod_version=1.0.0
+maven_group=com.example.create:steam-decor
+archives_base_name=Create: Steam Decor
+
+# Java settings
+org.gradle.jvmargs=-Xmx2G
+java_version=17
+
+# Loom & compilation
+fabric_loader_version=0.14.21
+fabric_api_version=0.86.1+1.20.1
+minecraft_version=1.20.1
+yarn_mappings=1.20.1+build.10:v2

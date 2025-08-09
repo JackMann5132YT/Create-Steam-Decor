@@ -1,0 +1,3 @@
+rootProject.name = "CreateSteamDecor"
+
+include("common", "fabric", "forge", "neoforge")

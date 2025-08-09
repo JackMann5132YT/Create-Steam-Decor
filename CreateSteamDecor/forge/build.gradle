@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+archivesBaseName = archives_base_name + "-forge"
+version = mod_version
+group = maven_group
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    implementation project(":common")
+}

@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+archivesBaseName = archives_base_name + "-neoforge"
+version = mod_version
+group = maven_group
+
+dependencies {
+    minecraft "net.neoforged:neoforge:${minecraft_version}-${neoforge_version}"
+    implementation project(":common")
+}

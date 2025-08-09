@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "createsteamdecor:item/small_three_chime_whistle"
+  }
+}

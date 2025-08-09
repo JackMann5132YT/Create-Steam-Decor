@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    // Common module usually has no direct loader dependencies
+}
+
+jar {
+    from("src/main/resources") {
+        include "**/*"
+    }
+}
